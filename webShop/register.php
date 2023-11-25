@@ -7,7 +7,7 @@ include "operations/registerphp.php";
 <body>
     <?php include "components/navbar.php"; ?>
     <div class="container mt-3">
-        <div class="mt-4 p-3 bg-primary text-white rounded text-center h1"> Register </div>
+        <div style="background-color: deepskyblue;" class="mt-4 p-3  text-white rounded text-center h1"> Register </div>
     </div>
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="container">

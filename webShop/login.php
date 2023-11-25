@@ -7,7 +7,7 @@ include "./operations/loginphp.php";
 <body>
     <?php include "components/navbar.php"; ?>
     <div class="container mt-3">
-        <div class="mt-4 p-3 bg-primary text-white rounded text-center h1">Login</div>
+        <div style="background-color: lightgrey;" class="mt-4 p-3  text-white rounded text-center h1">Login</div>
     </div>
     <br>
     <?php if ($errors['notexist']) : ?>

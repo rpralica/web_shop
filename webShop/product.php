@@ -9,6 +9,11 @@ $result = $query->fetch_assoc();
 <title><?php echo $result['name'] ?></title>
 
 <body>
+
+
+
+
+
     <div class="container">
         <div class="row">
             <div class="col offset-3">
@@ -19,7 +24,7 @@ $result = $query->fetch_assoc();
                 <div class="card  bg"><br>
                     <div class="card-title fw-bold text-center h1"><?php echo $result['name']; ?></div>
                     <div class="card-body">
-                        <h3><strong>Naziv: </strong> <?php echo $result['description']; ?></h3>
+                        <h3><strong>Opis: </strong> <?php echo $result['description']; ?></h3>
                         <h4><strong>Cijena: </strong><?php echo $result['price']; ?> KM</h4>
                         <h4><strong>Slika : </strong><?php echo $result['image']; ?></h4>
                         <h4><strong>Količina: </strong><?php
